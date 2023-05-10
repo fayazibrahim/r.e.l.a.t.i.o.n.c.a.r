@@ -11,8 +11,8 @@ namespace CarRelation.Controllers
         {
             _detail = new List<Detail>
             {
-                new Detail {Id=1,Name="Bmw",color="black",detail="detail",MarkaId=1},
-                new Detail {Id=2,Name="Mercedes",color="red",detail="detail", MarkaId=2}
+                new Detail {Id=1,Name="Bmw",color="Black",ban="sedan",detail="detail",MarkaId=1},
+                new Detail {Id=2,Name="Mercedes",color="Red",ban="hatchback",detail="detail", MarkaId=2}
 
             };
         }

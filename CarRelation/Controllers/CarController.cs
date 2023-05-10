@@ -10,7 +10,7 @@ namespace CarRelation.Controllers
         public CarController() => _car = new List<Car>
             {
                 new Car {Id=1,Name="Bmw",Model="530",MarkaId=1},
-                new Car {Id=2,Name="Mercedes",Model="C220",MarkaId=2}
+                new Car {Id=2,Name="Mercedes",Model="A180",MarkaId=2}
             };
 
         public IActionResult Index(int? id)
