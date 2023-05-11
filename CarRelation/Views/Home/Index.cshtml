@@ -10,7 +10,7 @@
         @foreach(Marka marka in Model)
         {
             <li class="list-group-item">
-                <a asp-controller="Car" asp-action="Index" asp-route-id="@marka.Id">
+                <a asp-controller="Model" asp-action="Index" asp-route-id="@marka.Id">
                     @marka.Name
 
             </a></li>

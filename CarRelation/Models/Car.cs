@@ -2,10 +2,12 @@
 {
     public class Car
     {
-        public int Id { get; set; }
-        public string Name { get; set; }
-        public int MarkaId { get; set; }
-        public string Model { get; set; }
+         public int Id { get; set; }
+        public string Ban { get; set; }
+        public string Year { get; set; }
+        public int ModelId { get; set; }
+        public string detail { get; set; }
 
     }
 }
+

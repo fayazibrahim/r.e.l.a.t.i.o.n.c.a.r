@@ -1,27 +1,45 @@
 ﻿using CarRelation.Models;
 using Microsoft.AspNetCore.Mvc;
-using System.Drawing;
 
 namespace CarRelation.Controllers
 {
     public class CarController : Controller
     {
-        private readonly List<Car> _car;
-        public CarController() => _car = new List<Car>
-            {
-                new Car {Id=1,Name="Bmw",Model="530",MarkaId=1},
-                new Car {Id=2,Name="Mercedes",Model="A180",MarkaId=2}
-            };
+        private readonly List<Car> _detail;
 
+        public CarController()
+        {
+            _detail = new List<Car>
+            {
+                new Car { Id = 1, Year = "2011", Ban = "sedan", ModelId = 1 },
+                new Car { Id = 2, Year = "2015", Ban = "universal", ModelId = 1 },
+                new Car { Id = 3, Year = "2005", Ban = "sedan", ModelId = 1 },
+                new Car { Id = 4, Year = "2003", Ban = "sedan", ModelId = 2 },
+                new Car { Id = 5, Year = "2019", Ban = "sedan", ModelId = 2 },
+                new Car { Id = 6, Year = "2022", Ban = "sedan", ModelId = 2 },
+
+            };
+        }
         public IActionResult Index(int? id)
         {
             if (id != null)
             {
-                if (_car.Exists(m => m.Id == id)) NotFound();
+                if (_detail.Exists(m => m.Id == id)) NotFound();
 
-                return View(_car.FindAll(m => m.MarkaId == id));
+                return View(_detail.FindAll(m => m.ModelId == id));
             }
-            return View(_car);
+            return View(_detail);
+        }
+
+        public IActionResult Detail(int? id)
+        {
+            if (id == null) BadRequest();
+
+            Car detail = _detail.Find(c => c.Id == id);
+
+            if (detail == null) return NotFound();
+
+            return View(detail);
         }
     }
 }

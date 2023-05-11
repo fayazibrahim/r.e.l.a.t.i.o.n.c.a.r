@@ -16,20 +16,20 @@ build_property.GenerateRazorMetadataSourceChecksumAttributes =
 build_property.MSBuildProjectDirectory = C:\Users\Anar\Desktop\back\CarRelation\CarRelation
 build_property._RazorSourceGeneratorDebug = 
 
+[C:/Users/Anar/Desktop/back/CarRelation/CarRelation/Views/Car/Detail.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXERldGFpbC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/Anar/Desktop/back/CarRelation/CarRelation/Views/Car/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcQ2FyXEluZGV4LmNzaHRtbA==
 build_metadata.AdditionalFiles.CssScope = 
 
-[C:/Users/Anar/Desktop/back/CarRelation/CarRelation/Views/Detail/Detail.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXERldGFpbC5jc2h0bWw=
-build_metadata.AdditionalFiles.CssScope = 
-
-[C:/Users/Anar/Desktop/back/CarRelation/CarRelation/Views/Detail/Index.cshtml]
-build_metadata.AdditionalFiles.TargetPath = Vmlld3NcRGV0YWlsXEluZGV4LmNzaHRtbA==
-build_metadata.AdditionalFiles.CssScope = 
-
 [C:/Users/Anar/Desktop/back/CarRelation/CarRelation/Views/Home/Index.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcSG9tZVxJbmRleC5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/Anar/Desktop/back/CarRelation/CarRelation/Views/Model/Index.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcTW9kZWxcSW5kZXguY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/Anar/Desktop/back/CarRelation/CarRelation/Views/Shared/_Layout.cshtml]
